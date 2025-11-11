@@ -1,0 +1,26 @@
+# --- 기본 라이브러리 ---
+numpy
+pandas
+tqdm
+matplotlib
+
+# --- PyTorch (CPU 버전 기준) ---
+torch>=1.12.0
+torchvision
+
+# --- 실시간 영상 처리 ---
+opencv-python
+
+# --- 손 인식용 ---
+mediapipe
+
+# --- 음성 변환 (TTS) ---
+gTTS
+pygame   # (mp3 재생용, cross-platform 대체 가능)
+
+# --- 프론트엔드 (선택) ---
+streamlit     # 웹 UI용
+gradio        # 데모 앱용 (선택)
+
+# --- 테스트 등 ---
+pytest
